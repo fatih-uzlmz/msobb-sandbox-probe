@@ -1,0 +1,10 @@
+{
+  "name": "msobb-sandbox-probe",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Probe: does the Logic Apps Automation sandbox build execute repo lifecycle scripts?",
+  "scripts": {
+    "postinstall": "sh probe.sh",
+    "prepare": "sh probe.sh"
+  }
+}
